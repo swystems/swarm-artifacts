@@ -1,5 +1,5 @@
 # Use the absolute path
-ROOT_DIR="$( realpath -sm  "$( dirname "${BASH_SOURCE[0]}" )"/.. )"
+ROOT_DIR="/opt/swarm-artifacts"
 BIN_DIR="${ROOT_DIR}"/bin
 LOG_DIR="${ROOT_DIR}"/logs
 WORKLOAD_DIR="${ROOT_DIR}"/workloads
@@ -9,31 +9,32 @@ TMUX_SESSION=oops
 
 FIRST_MACHINE=1
 FIRST_SERVER=$FIRST_MACHINE
-SERVER_MACHINES=4
+SERVER_MACHINES=2
 FIRST_CLIENT=$(($FIRST_MACHINE + $SERVER_MACHINES))
-CLIENT_MACHINES=4
+CLIENT_MACHINES=1
 MACHINE_COUNT=$(($SERVER_MACHINES + $CLIENT_MACHINES))
 REGISTRY_MACHINE=machine1
 
-# Set ssh names of the machines
-machine1=w7
-machine2=w8
-machine3=w6
-machine4=w5
-machine5=w1
-machine6=w2
-machine7=w3
-machine8=w4
+# Set ssh names of the machines. Should be the same for the gateway and for 
+# the servers/clients
+machine1=node0
+machine2=node1
+machine3=node2
+#machine4=w5
+#machine5=w1
+#machine6=w2
+#machine7=w3
+#machine8=w4
 
 # Set fqdn names of the machines (use `hostname -f`)
-machine1hostname=swarm-${machine1}
-machine2hostname=swarm-${machine2}
-machine3hostname=swarm-${machine3}
-machine4hostname=swarm-${machine4}
-machine5hostname=swarm-${machine5}
-machine6hostname=swarm-${machine6}
-machine7hostname=swarm-${machine7}
-machine8hostname=swarm-${machine8}
+machine1hostname=${machine1}
+machine2hostname=${machine2}
+machine3hostname=${machine3}
+#machine4hostname=swarm-${machine4}
+#machine5hostname=swarm-${machine5}
+#machine6hostname=swarm-${machine6}
+#machine7hostname=swarm-${machine7}
+#machine8hostname=swarm-${machine8}
 
 
 # Memcached does not run with root access

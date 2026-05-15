@@ -1,0 +1,15 @@
+mlx4_0 uverbs0 NodeType::CA TransportType::IB
+Binded successfully (port_id, port_lid) = (1, 192)
+[CB:info] PD 'primary' registered
+[CB:info] Buffer 'shared-buf' of size 779520000 allocated
+[CB:info] Mr 'shared-mr' under PD 'primary' registered with buf 'shared-buf' (offset: 0, length: 779520000) and rights 15
+[CB:info] Cq 'cq2' registered
+[CB:info] Cq 'cq3' registered
+[CB:info] Cq 'cq4' registered
+[CB:info] Cq 'cq5' registered
+[CB:info] Cq 'cq6' registered
+[CE:info] Publishing qp qp-1-for-2
+[CE:info] Publishing qp qp-1-for-3
+[CE:info] Publishing qp qp-1-for-4
+[CE:info] Publishing qp qp-1-for-5
+[CE:info] Publishing qp qp-1-for-6

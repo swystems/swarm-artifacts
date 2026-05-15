@@ -14,5 +14,5 @@ ARGS="${@:5}"
 tmux new-window -t $TMUX_SESSION -n "$WIN_NAME" \
     "source \"$SCRIPT_DIR\"/config.sh; \
      mkdir -p ${LOG_DIR}/${FOLDER_NAME}/; \
-     stdbuf -o L -e L numactl -m 0 -N 0 -C $CORE $BIN_PATH $ARGS 2>&1 | tee ${LOG_DIR}/${FOLDER_NAME}/${WIN_NAME}.txt; \
+     sudo stdbuf -o L -e L numactl -m 0 -N 0 -C $CORE $BIN_PATH $ARGS 2>&1 | tee ${LOG_DIR}/${FOLDER_NAME}/${WIN_NAME}.txt; \
      sleep 10"
