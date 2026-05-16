@@ -1,14 +1,50 @@
 # Reproduce swarm on cloudlab r320
+Quick guide to deploy & test swarm on CloudLab, always refer to README for full 
+details. 
 
-follow README
+## Use pre-configured cloudlab profile
 
-install on cluster machines: 
+If you have a CloudLab account, instantiate a pre-configured cluster through the 
+following profile:
+
+https://www.cloudlab.us/p/xdp-bypass23/swarm-cluster-test
+
+
+### Setup cloud lab addresses
+
+Map cloudlab nodes addresses in `/etc/hosts` or `~/.ssh/config`. Example for 2 
+nodes below. It's important that the name stay node1, node2... nodeN because
+cloudlab instances use the same names.Machines are defined in `scripts/config.sh`
+which is used in a number of scripts and by the main bin. Extend `scripts/config.sh`
+if you need more nodes.
+
+```sh
+ cat /etc/hosts
+# See `man hosts` for details.
+#
+# By default, systemd-resolved or libnss-myhostname will resolve
+# localhost and the system hostname if they're not specified here.
+127.0.0.1	localhost
+::1		localhost
+
+apt138.apt.emulab.net 	node1
+apt158.apt.emulab.net	node2
+```
+
+## DIY
+
+Spin a cloudlab small-lan with r320 nodes with Ubuntu 24.04. from the APT 
+cluster (as of 05/2026). Any other machine which supports infiniband (mandatory 
+requirement) should be fine. 
+
+Install on cluster machines: 
 
 ```sh 
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y coreutils gawk python3 python3-venv zip tmux gcc numactl libmemcached-dev memcached openjdk-8-jre-headless build-essential cmake ninja-build git libssl-dev libmemcached-dev     
 ```
 
+Conan package manager:
 ```sh
 python3 -m venv ~/.venv/conan-env
 source ~/.venv/conan-env/bin/activate
@@ -16,17 +52,12 @@ pip install --upgrade "conan>=1.63.0,<2.0.0"
 ```
 
 Install libibverbs (OFED not supported on r320 NICs)
-
 ```sh
 sudo apt install -y libibverbs-dev
 ```
 
-Add self among RDMA users
-
-```sh
-sudo usermod -aG rdma $USER
-```
-
+Clone the repo to `/opt` (useful if you want to save the CloudLab image, /home 
+cannot be saved)
 ```sh
 cd /opt/
 sudo chown $USER .
@@ -34,10 +65,27 @@ git clone https://github.com/swystems/swarm-artifacts
 cd swarm-artifacts
 ```
 
+Setup ycsb and put swarm bin in right folder
+```sh
+./download-ycsb.sh
+tar xf ycsb-0.12.0.tar.gz
+mv ycsb-0.12.0 YCSB
+mv bin/swarm-kv/swarm-kv/build/bin/swarmkv bin/
+```
 
-make sure vm use same hostname for gateway/local config and remote cluster 
+Run the latency benchmark:
+```sh
+./experiments/test-lat.sh
+./gather-logs.sh
+cat logs/fig5*/<some-other-folders>/client1.txt 
+```
 
-stop memcached service! 
+If you get some funky error make sure memcached service is stopped! 
+```sh
+systemctl stop memcached
+```
+
+## Other commands and info
 
 Manual server command
 ```sh

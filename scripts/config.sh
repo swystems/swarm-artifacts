@@ -9,7 +9,7 @@ TMUX_SESSION=oops
 
 FIRST_MACHINE=1
 FIRST_SERVER=$FIRST_MACHINE
-SERVER_MACHINES=2
+SERVER_MACHINES=1
 FIRST_CLIENT=$(($FIRST_MACHINE + $SERVER_MACHINES))
 CLIENT_MACHINES=1
 MACHINE_COUNT=$(($SERVER_MACHINES + $CLIENT_MACHINES))
@@ -17,9 +17,9 @@ REGISTRY_MACHINE=machine1
 
 # Set ssh names of the machines. Should be the same for the gateway and for 
 # the servers/clients
-machine1=node0
-machine2=node1
-machine3=node2
+machine1=node1
+machine2=node2
+# machine3=node2
 #machine4=w5
 #machine5=w1
 #machine6=w2
@@ -29,7 +29,7 @@ machine3=node2
 # Set fqdn names of the machines (use `hostname -f`)
 machine1hostname=${machine1}
 machine2hostname=${machine2}
-machine3hostname=${machine3}
+# machine3hostname=${machine3}
 #machine4hostname=swarm-${machine4}
 #machine5hostname=swarm-${machine5}
 #machine6hostname=swarm-${machine6}
