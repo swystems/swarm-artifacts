@@ -60,7 +60,6 @@ static std::stringstream exec(const std::string& cmd) {
     };
 
   std::unique_ptr<FILE, PipeCloser> pipe(popen(cmd.c_str(), "r"));
-                                               pclose);
   if (!pipe) throw std::runtime_error("popen() failed!");
   while (fgets(buffer.data(), buffer.size(), pipe.get()) != nullptr)
     output << buffer.data();
