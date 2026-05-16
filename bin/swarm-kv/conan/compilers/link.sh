@@ -6,7 +6,7 @@ cd "$DIR"
 
 nonverbose=$1
 
-GCC_SUPPORTED_VERSIONS=( 7 8 9 10 11 12 )
+GCC_SUPPORTED_VERSIONS=( 7 8 9 10 11 12 13 )
 CLANG_SUPPORTED_VERSIONS=( 6.0 7 8 9 10 11 12 )
 
 if which gcc > /dev/null 2>&1; then
