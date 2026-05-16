@@ -1,0 +1,13 @@
+shared : []
+extern : []
+third-party : []
+
+special : [third-party, shared]
+memstore : [shared, extern]
+
+memory : [special]
+ctrl : [extern, memory]
+conn : [ctrl, memstore]
+
+fusee : [conn]
+swarm-kv : [conn]
