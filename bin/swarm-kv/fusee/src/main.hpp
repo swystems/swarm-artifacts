@@ -3,6 +3,7 @@
 #include <chrono>
 #include <array>
 #include <iostream>
+#include <memory>
 #include <random>
 #include <sstream>
 #include <stdexcept>
@@ -70,7 +71,15 @@ struct std::hash<HashedKey>
 static std::stringstream exec(const std::string& cmd) {
     std::array<char, 128> buffer;
     std::stringstream output;
-    std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd.c_str(), "r"), pclose);
+    struct PipeCloser {
+      void operator()(FILE* f) const noexcept {
+        if (f != nullptr) {
+          (void)pclose(f);
+        }
+      }
+    };
+
+    std::unique_ptr<FILE, PipeCloser> pipe(popen(cmd.c_str(), "r"));
     if (!pipe) throw std::runtime_error("popen() failed!");
     while (fgets(buffer.data(), buffer.size(), pipe.get()) != nullptr)
         output << buffer.data();
