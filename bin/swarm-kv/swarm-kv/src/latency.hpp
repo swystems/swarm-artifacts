@@ -155,6 +155,7 @@ class LatencyProfiler {
       }
     }
     fmt::print("{}%: {}.\n", 99.9, percentile(99.9));
+    fmt::print("{}%: {}.\n", 99.99, percentile(99.99));
   }
 
   void reportOnce(bool detailed = false) {
