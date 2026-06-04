@@ -12,23 +12,23 @@ https://www.cloudlab.us/p/xdp-bypass23/swarm-cluster-test
 
 ### Setup cloud lab addresses
 
-Map cloudlab nodes addresses in `/etc/hosts` or `~/.ssh/config`. Example for 2 
+Map cloudlab nodes addresses to `~/.ssh/config`. Example for 2 
 nodes below. It's important that the name stay node1, node2... nodeN because
 cloudlab instances use the same names.Machines are defined in `scripts/config.sh`
 which is used in a number of scripts and by the main bin. Extend `scripts/config.sh`
 if you need more nodes.
 
 ```sh
- cat /etc/hosts
-# See `man hosts` for details.
-#
-# By default, systemd-resolved or libnss-myhostname will resolve
-# localhost and the system hostname if they're not specified here.
-127.0.0.1	localhost
-::1		localhost
+ cat ~/.ssh/config
 
-apt138.apt.emulab.net 	node1
-apt158.apt.emulab.net	node2
+Host node9
+    HostName apt136.apt.emulab.net
+    User myuser
+
+Host node10
+    HostName apt130.apt.emulab.net
+    User muser
+
 ```
 
 ## DIY

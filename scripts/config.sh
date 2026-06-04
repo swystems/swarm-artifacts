@@ -9,7 +9,7 @@ TMUX_SESSION=oops
 
 FIRST_MACHINE=1
 FIRST_SERVER=$FIRST_MACHINE
-SERVER_MACHINES=1
+SERVER_MACHINES=9
 FIRST_CLIENT=$(($FIRST_MACHINE + $SERVER_MACHINES))
 CLIENT_MACHINES=1
 MACHINE_COUNT=$(($SERVER_MACHINES + $CLIENT_MACHINES))
@@ -17,25 +17,15 @@ REGISTRY_MACHINE=machine1
 
 # Set ssh names of the machines. Should be the same for the gateway and for 
 # the servers/clients
-machine1=node1
-machine2=node2
-# machine3=node2
-#machine4=w5
-#machine5=w1
-#machine6=w2
-#machine7=w3
-#machine8=w4
+for i in $(seq 1 10); do
+  declare "machine${i}=node${i}"
+done
 
 # Set fqdn names of the machines (use `hostname -f`)
-machine1hostname=${machine1}
-machine2hostname=${machine2}
-# machine3hostname=${machine3}
-#machine4hostname=swarm-${machine4}
-#machine5hostname=swarm-${machine5}
-#machine6hostname=swarm-${machine6}
-#machine7hostname=swarm-${machine7}
-#machine8hostname=swarm-${machine8}
 
+for i in $(seq 1 10); do
+  declare "machine${i}hostname=$(eval echo \${machine${i}})"
+done
 
 # Memcached does not run with root access
 #PONY_HAVE_SUDO_ACCESS=false
