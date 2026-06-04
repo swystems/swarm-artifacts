@@ -1,0 +1,470 @@
+mlx4_0 uverbs0 NodeType::CA TransportType::IB
+Binded successfully (port_id, port_lid) = (1, 19)
+[CB:info] PD 'primary' registered
+[CB:info] Buffer 'shared-buf' of size 12229120000 allocated
+[CB:info] Mr 'shared-mr' under PD 'primary' registered with buf 'shared-buf' (offset: 0, length: 12229120000) and rights 15
+[CB:info] Cq 'cq1' registered
+[CB:info] Cq 'cq2' registered
+[CB:info] Cq 'cq4' registered
+[CB:info] Cq 'cq5' registered
+[CB:info] Cq 'cq6' registered
+[CB:info] Cq 'cq7' registered
+[CB:info] Cq 'cq8' registered
+[CB:info] Cq 'cq9' registered
+[CB:info] Cq 'cq10' registered
+[CB:info] Cq 'cq11' registered
+[CB:info] Cq 'cq12' registered
+[CB:info] Cq 'cq13' registered
+[CB:info] Cq 'cq14' registered
+[CB:info] Cq 'cq15' registered
+[CB:info] Cq 'cq16' registered
+[CB:info] Cq 'cq17' registered
+[CB:info] Cq 'cq18' registered
+[CB:info] Cq 'cq19' registered
+[CB:info] Cq 'cq20' registered
+[CB:info] Cq 'cq21' registered
+[CB:info] Cq 'cq22' registered
+[CB:info] Cq 'cq23' registered
+[CB:info] Cq 'cq24' registered
+[CB:info] Cq 'cq25' registered
+[CB:info] Cq 'cq26' registered
+[CB:info] Cq 'cq27' registered
+[CB:info] Cq 'cq28' registered
+[CB:info] Cq 'cq29' registered
+[CB:info] Cq 'cq30' registered
+[CB:info] Cq 'cq31' registered
+[CB:info] Cq 'cq32' registered
+[CB:info] Cq 'cq33' registered
+[CB:info] Cq 'cq34' registered
+[CB:info] Cq 'cq35' registered
+[CB:info] Cq 'cq36' registered
+[CB:info] Cq 'cq37' registered
+[CB:info] Cq 'cq38' registered
+[CB:info] Cq 'cq39' registered
+[CB:info] Cq 'cq40' registered
+[CB:info] Cq 'cq41' registered
+[CB:info] Cq 'cq42' registered
+[CB:info] Cq 'cq43' registered
+[CB:info] Cq 'cq44' registered
+[CB:info] Cq 'cq45' registered
+[CB:info] Cq 'cq46' registered
+[CB:info] Cq 'cq47' registered
+[CB:info] Cq 'cq48' registered
+[CB:info] Cq 'cq49' registered
+[CB:info] Cq 'cq50' registered
+[CB:info] Cq 'cq51' registered
+[CB:info] Cq 'cq52' registered
+[CB:info] Cq 'cq53' registered
+[CB:info] Cq 'cq54' registered
+[CB:info] Cq 'cq55' registered
+[CB:info] Cq 'cq56' registered
+[CB:info] Cq 'cq57' registered
+[CB:info] Cq 'cq58' registered
+[CB:info] Cq 'cq59' registered
+[CB:info] Cq 'cq60' registered
+[CB:info] Cq 'cq61' registered
+[CB:info] Cq 'cq62' registered
+[CB:info] Cq 'cq63' registered
+[CB:info] Cq 'cq64' registered
+[CB:info] Cq 'cq65' registered
+[CB:info] Cq 'cq66' registered
+[CB:info] Cq 'cq67' registered
+[CE:info] Publishing qp qp-3-for-1
+[CE:info] Publishing qp qp-3-for-2
+[CE:info] Publishing qp qp-3-for-4
+[CE:info] Publishing qp qp-3-for-5
+[CE:info] Publishing qp qp-3-for-6
+[CE:info] Publishing qp qp-3-for-7
+[CE:info] Publishing qp qp-3-for-8
+[CE:info] Publishing qp qp-3-for-9
+[CE:info] Publishing qp qp-3-for-10
+[CE:info] Publishing qp qp-3-for-11
+[CE:info] Publishing qp qp-3-for-12
+[CE:info] Publishing qp qp-3-for-13
+[CE:info] Publishing qp qp-3-for-14
+[CE:info] Publishing qp qp-3-for-15
+[CE:info] Publishing qp qp-3-for-16
+[CE:info] Publishing qp qp-3-for-17
+[CE:info] Publishing qp qp-3-for-18
+[CE:info] Publishing qp qp-3-for-19
+[CE:info] Publishing qp qp-3-for-20
+[CE:info] Publishing qp qp-3-for-21
+[CE:info] Publishing qp qp-3-for-22
+[CE:info] Publishing qp qp-3-for-23
+[CE:info] Publishing qp qp-3-for-24
+[CE:info] Publishing qp qp-3-for-25
+[CE:info] Publishing qp qp-3-for-26
+[CE:info] Publishing qp qp-3-for-27
+[CE:info] Publishing qp qp-3-for-28
+[CE:info] Publishing qp qp-3-for-29
+[CE:info] Publishing qp qp-3-for-30
+[CE:info] Publishing qp qp-3-for-31
+[CE:info] Publishing qp qp-3-for-32
+[CE:info] Publishing qp qp-3-for-33
+[CE:info] Publishing qp qp-3-for-34
+[CE:info] Publishing qp qp-3-for-35
+[CE:info] Publishing qp qp-3-for-36
+[CE:info] Publishing qp qp-3-for-37
+[CE:info] Publishing qp qp-3-for-38
+[CE:info] Publishing qp qp-3-for-39
+[CE:info] Publishing qp qp-3-for-40
+[CE:info] Publishing qp qp-3-for-41
+[CE:info] Publishing qp qp-3-for-42
+[CE:info] Publishing qp qp-3-for-43
+[CE:info] Publishing qp qp-3-for-44
+[CE:info] Publishing qp qp-3-for-45
+[CE:info] Publishing qp qp-3-for-46
+[CE:info] Publishing qp qp-3-for-47
+[CE:info] Publishing qp qp-3-for-48
+[CE:info] Publishing qp qp-3-for-49
+[CE:info] Publishing qp qp-3-for-50
+[CE:info] Publishing qp qp-3-for-51
+[CE:info] Publishing qp qp-3-for-52
+[CE:info] Publishing qp qp-3-for-53
+[CE:info] Publishing qp qp-3-for-54
+[CE:info] Publishing qp qp-3-for-55
+[CE:info] Publishing qp qp-3-for-56
+[CE:info] Publishing qp qp-3-for-57
+[CE:info] Publishing qp qp-3-for-58
+[CE:info] Publishing qp qp-3-for-59
+[CE:info] Publishing qp qp-3-for-60
+[CE:info] Publishing qp qp-3-for-61
+[CE:info] Publishing qp qp-3-for-62
+[CE:info] Publishing qp qp-3-for-63
+[CE:info] Publishing qp qp-3-for-64
+[CE:info] Publishing qp qp-3-for-65
+[CE:info] Publishing qp qp-3-for-66
+[CE:info] Publishing qp qp-3-for-67
+[CE:info] Connected to qp qp-1-for-3 with rights 15
+[CE:info] Connected to qp qp-2-for-3 with rights 15
+[CE:info] Connected to qp qp-4-for-3 with rights 15
+[CE:info] Connected to qp qp-5-for-3 with rights 15
+[CE:info] Connected to qp qp-6-for-3 with rights 15
+[CE:info] Connected to qp qp-7-for-3 with rights 15
+[CE:info] Connected to qp qp-8-for-3 with rights 15
+[CE:info] Connected to qp qp-9-for-3 with rights 15
+[CE:info] Connected to qp qp-10-for-3 with rights 15
+[CE:info] Connected to qp qp-11-for-3 with rights 15
+[CE:info] Connected to qp qp-12-for-3 with rights 15
+[CE:info] Connected to qp qp-13-for-3 with rights 15
+[CE:info] Connected to qp qp-14-for-3 with rights 15
+[CE:info] Connected to qp qp-15-for-3 with rights 15
+[CE:info] Connected to qp qp-16-for-3 with rights 15
+[CE:info] Connected to qp qp-17-for-3 with rights 15
+[CE:info] Connected to qp qp-18-for-3 with rights 15
+[CE:info] Connected to qp qp-19-for-3 with rights 15
+[CE:info] Connected to qp qp-20-for-3 with rights 15
+[CE:info] Connected to qp qp-21-for-3 with rights 15
+[CE:info] Connected to qp qp-22-for-3 with rights 15
+[CE:info] Connected to qp qp-23-for-3 with rights 15
+[CE:info] Connected to qp qp-24-for-3 with rights 15
+[CE:info] Connected to qp qp-25-for-3 with rights 15
+[CE:info] Connected to qp qp-26-for-3 with rights 15
+[CE:info] Connected to qp qp-27-for-3 with rights 15
+[CE:info] Connected to qp qp-28-for-3 with rights 15
+[CE:info] Connected to qp qp-29-for-3 with rights 15
+[CE:info] Connected to qp qp-30-for-3 with rights 15
+[CE:info] Connected to qp qp-31-for-3 with rights 15
+[CE:info] Connected to qp qp-32-for-3 with rights 15
+[CE:info] Connected to qp qp-33-for-3 with rights 15
+[CE:info] Connected to qp qp-34-for-3 with rights 15
+[CE:info] Connected to qp qp-35-for-3 with rights 15
+[CE:info] Connected to qp qp-36-for-3 with rights 15
+[CE:info] Connected to qp qp-37-for-3 with rights 15
+[CE:info] Connected to qp qp-38-for-3 with rights 15
+[CE:info] Connected to qp qp-39-for-3 with rights 15
+[CE:info] Connected to qp qp-40-for-3 with rights 15
+[CE:info] Connected to qp qp-41-for-3 with rights 15
+[CE:info] Connected to qp qp-42-for-3 with rights 15
+[CE:info] Connected to qp qp-43-for-3 with rights 15
+[CE:info] Connected to qp qp-44-for-3 with rights 15
+[CE:info] Connected to qp qp-45-for-3 with rights 15
+[CE:info] Connected to qp qp-46-for-3 with rights 15
+[CE:info] Connected to qp qp-47-for-3 with rights 15
+[CE:info] Connected to qp qp-48-for-3 with rights 15
+[CE:info] Connected to qp qp-49-for-3 with rights 15
+[CE:info] Connected to qp qp-50-for-3 with rights 15
+[CE:info] Connected to qp qp-51-for-3 with rights 15
+[CE:info] Connected to qp qp-52-for-3 with rights 15
+[CE:info] Connected to qp qp-53-for-3 with rights 15
+[CE:info] Connected to qp qp-54-for-3 with rights 15
+[CE:info] Connected to qp qp-55-for-3 with rights 15
+[CE:info] Connected to qp qp-56-for-3 with rights 15
+[CE:info] Connected to qp qp-57-for-3 with rights 15
+[CE:info] Connected to qp qp-58-for-3 with rights 15
+[CE:info] Connected to qp qp-59-for-3 with rights 15
+[CE:info] Connected to qp qp-60-for-3 with rights 15
+[CE:info] Connected to qp qp-61-for-3 with rights 15
+[CE:info] Connected to qp qp-62-for-3 with rights 15
+[CE:info] Connected to qp qp-63-for-3 with rights 15
+[CE:info] Connected to qp qp-64-for-3 with rights 15
+[CE:info] Connected to qp qp-65-for-3 with rights 15
+[CE:info] Connected to qp qp-66-for-3 with rights 15
+[CE:info] Connected to qp qp-67-for-3 with rights 15
+[CE:info] Unpublishing qp qp-3-for-1
+[CE:info] Unpublishing qp qp-3-for-2
+[CE:info] Unpublishing qp qp-3-for-4
+[CE:info] Unpublishing qp qp-3-for-5
+[CE:info] Unpublishing qp qp-3-for-6
+[CE:info] Unpublishing qp qp-3-for-7
+[CE:info] Unpublishing qp qp-3-for-8
+[CE:info] Unpublishing qp qp-3-for-9
+[CE:info] Unpublishing qp qp-3-for-10
+[CE:info] Unpublishing qp qp-3-for-11
+[CE:info] Unpublishing qp qp-3-for-12
+[CE:info] Unpublishing qp qp-3-for-13
+[CE:info] Unpublishing qp qp-3-for-14
+[CE:info] Unpublishing qp qp-3-for-15
+[CE:info] Unpublishing qp qp-3-for-16
+[CE:info] Unpublishing qp qp-3-for-17
+[CE:info] Unpublishing qp qp-3-for-18
+[CE:info] Unpublishing qp qp-3-for-19
+[CE:info] Unpublishing qp qp-3-for-20
+[CE:info] Unpublishing qp qp-3-for-21
+[CE:info] Unpublishing qp qp-3-for-22
+[CE:info] Unpublishing qp qp-3-for-23
+[CE:info] Unpublishing qp qp-3-for-24
+[CE:info] Unpublishing qp qp-3-for-25
+[CE:info] Unpublishing qp qp-3-for-26
+[CE:info] Unpublishing qp qp-3-for-27
+[CE:info] Unpublishing qp qp-3-for-28
+[CE:info] Unpublishing qp qp-3-for-29
+[CE:info] Unpublishing qp qp-3-for-30
+[CE:info] Unpublishing qp qp-3-for-31
+[CE:info] Unpublishing qp qp-3-for-32
+[CE:info] Unpublishing qp qp-3-for-33
+[CE:info] Unpublishing qp qp-3-for-34
+[CE:info] Unpublishing qp qp-3-for-35
+[CE:info] Unpublishing qp qp-3-for-36
+[CE:info] Unpublishing qp qp-3-for-37
+[CE:info] Unpublishing qp qp-3-for-38
+[CE:info] Unpublishing qp qp-3-for-39
+[CE:info] Unpublishing qp qp-3-for-40
+[CE:info] Unpublishing qp qp-3-for-41
+[CE:info] Unpublishing qp qp-3-for-42
+[CE:info] Unpublishing qp qp-3-for-43
+[CE:info] Unpublishing qp qp-3-for-44
+[CE:info] Unpublishing qp qp-3-for-45
+[CE:info] Unpublishing qp qp-3-for-46
+[CE:info] Unpublishing qp qp-3-for-47
+[CE:info] Unpublishing qp qp-3-for-48
+[CE:info] Unpublishing qp qp-3-for-49
+[CE:info] Unpublishing qp qp-3-for-50
+[CE:info] Unpublishing qp qp-3-for-51
+[CE:info] Unpublishing qp qp-3-for-52
+[CE:info] Unpublishing qp qp-3-for-53
+[CE:info] Unpublishing qp qp-3-for-54
+[CE:info] Unpublishing qp qp-3-for-55
+[CE:info] Unpublishing qp qp-3-for-56
+[CE:info] Unpublishing qp qp-3-for-57
+[CE:info] Unpublishing qp qp-3-for-58
+[CE:info] Unpublishing qp qp-3-for-59
+[CE:info] Unpublishing qp qp-3-for-60
+[CE:info] Unpublishing qp qp-3-for-61
+[CE:info] Unpublishing qp qp-3-for-62
+[CE:info] Unpublishing qp qp-3-for-63
+[CE:info] Unpublishing qp qp-3-for-64
+[CE:info] Unpublishing qp qp-3-for-65
+[CE:info] Unpublishing qp qp-3-for-66
+[CE:info] Unpublishing qp qp-3-for-67
+[CB:info] PD 'pd' registered
+[CB:info] Buffer 'buf' of size 18874368 allocated
+[CB:info] Mr 'mr' under PD 'pd' registered with buf 'buf' (offset: 0, length: 18874368) and rights 15
+[CB:info] Cq 'cq' registered
+[CE:info] Publishing qp default-race-qp-3-for-4
+[CE:info] Publishing qp default-race-qp-3-for-5
+[CE:info] Publishing qp default-race-qp-3-for-6
+[CE:info] Publishing qp default-race-qp-3-for-7
+[CE:info] Publishing qp default-race-qp-3-for-8
+[CE:info] Publishing qp default-race-qp-3-for-9
+[CE:info] Publishing qp default-race-qp-3-for-10
+[CE:info] Publishing qp default-race-qp-3-for-11
+[CE:info] Publishing qp default-race-qp-3-for-12
+[CE:info] Publishing qp default-race-qp-3-for-13
+[CE:info] Publishing qp default-race-qp-3-for-14
+[CE:info] Publishing qp default-race-qp-3-for-15
+[CE:info] Publishing qp default-race-qp-3-for-16
+[CE:info] Publishing qp default-race-qp-3-for-17
+[CE:info] Publishing qp default-race-qp-3-for-18
+[CE:info] Publishing qp default-race-qp-3-for-19
+[CE:info] Publishing qp default-race-qp-3-for-20
+[CE:info] Publishing qp default-race-qp-3-for-21
+[CE:info] Publishing qp default-race-qp-3-for-22
+[CE:info] Publishing qp default-race-qp-3-for-23
+[CE:info] Publishing qp default-race-qp-3-for-24
+[CE:info] Publishing qp default-race-qp-3-for-25
+[CE:info] Publishing qp default-race-qp-3-for-26
+[CE:info] Publishing qp default-race-qp-3-for-27
+[CE:info] Publishing qp default-race-qp-3-for-28
+[CE:info] Publishing qp default-race-qp-3-for-29
+[CE:info] Publishing qp default-race-qp-3-for-30
+[CE:info] Publishing qp default-race-qp-3-for-31
+[CE:info] Publishing qp default-race-qp-3-for-32
+[CE:info] Publishing qp default-race-qp-3-for-33
+[CE:info] Publishing qp default-race-qp-3-for-34
+[CE:info] Publishing qp default-race-qp-3-for-35
+[CE:info] Publishing qp default-race-qp-3-for-36
+[CE:info] Publishing qp default-race-qp-3-for-37
+[CE:info] Publishing qp default-race-qp-3-for-38
+[CE:info] Publishing qp default-race-qp-3-for-39
+[CE:info] Publishing qp default-race-qp-3-for-40
+[CE:info] Publishing qp default-race-qp-3-for-41
+[CE:info] Publishing qp default-race-qp-3-for-42
+[CE:info] Publishing qp default-race-qp-3-for-43
+[CE:info] Publishing qp default-race-qp-3-for-44
+[CE:info] Publishing qp default-race-qp-3-for-45
+[CE:info] Publishing qp default-race-qp-3-for-46
+[CE:info] Publishing qp default-race-qp-3-for-47
+[CE:info] Publishing qp default-race-qp-3-for-48
+[CE:info] Publishing qp default-race-qp-3-for-49
+[CE:info] Publishing qp default-race-qp-3-for-50
+[CE:info] Publishing qp default-race-qp-3-for-51
+[CE:info] Publishing qp default-race-qp-3-for-52
+[CE:info] Publishing qp default-race-qp-3-for-53
+[CE:info] Publishing qp default-race-qp-3-for-54
+[CE:info] Publishing qp default-race-qp-3-for-55
+[CE:info] Publishing qp default-race-qp-3-for-56
+[CE:info] Publishing qp default-race-qp-3-for-57
+[CE:info] Publishing qp default-race-qp-3-for-58
+[CE:info] Publishing qp default-race-qp-3-for-59
+[CE:info] Publishing qp default-race-qp-3-for-60
+[CE:info] Publishing qp default-race-qp-3-for-61
+[CE:info] Publishing qp default-race-qp-3-for-62
+[CE:info] Publishing qp default-race-qp-3-for-63
+[CE:info] Publishing qp default-race-qp-3-for-64
+[CE:info] Publishing qp default-race-qp-3-for-65
+[CE:info] Publishing qp default-race-qp-3-for-66
+[CE:info] Publishing qp default-race-qp-3-for-67
+[ServerIndex:info] Index connecting...
+[CE:info] Connected to qp default-race-qp-4-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-5-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-6-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-7-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-8-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-9-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-10-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-11-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-12-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-13-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-14-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-15-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-16-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-17-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-18-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-19-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-20-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-21-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-22-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-23-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-24-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-25-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-26-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-27-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-28-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-29-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-30-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-31-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-32-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-33-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-34-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-35-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-36-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-37-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-38-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-39-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-40-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-41-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-42-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-43-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-44-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-45-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-46-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-47-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-48-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-49-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-50-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-51-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-52-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-53-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-54-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-55-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-56-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-57-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-58-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-59-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-60-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-61-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-62-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-63-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-64-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-65-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-66-for-3 with rights 15
+[CE:info] Connected to qp default-race-qp-67-for-3 with rights 15
+[ServerIndex:info] Connected
+[ServerIndex:info] RDMA buffer: 138835452645440 to 138835471519808
+[CE:info] Unpublishing qp default-race-qp-3-for-4
+[CE:info] Unpublishing qp default-race-qp-3-for-5
+[CE:info] Unpublishing qp default-race-qp-3-for-6
+[CE:info] Unpublishing qp default-race-qp-3-for-7
+[CE:info] Unpublishing qp default-race-qp-3-for-8
+[CE:info] Unpublishing qp default-race-qp-3-for-9
+[CE:info] Unpublishing qp default-race-qp-3-for-10
+[CE:info] Unpublishing qp default-race-qp-3-for-11
+[CE:info] Unpublishing qp default-race-qp-3-for-12
+[CE:info] Unpublishing qp default-race-qp-3-for-13
+[CE:info] Unpublishing qp default-race-qp-3-for-14
+[CE:info] Unpublishing qp default-race-qp-3-for-15
+[CE:info] Unpublishing qp default-race-qp-3-for-16
+[CE:info] Unpublishing qp default-race-qp-3-for-17
+[CE:info] Unpublishing qp default-race-qp-3-for-18
+[CE:info] Unpublishing qp default-race-qp-3-for-19
+[CE:info] Unpublishing qp default-race-qp-3-for-20
+[CE:info] Unpublishing qp default-race-qp-3-for-21
+[CE:info] Unpublishing qp default-race-qp-3-for-22
+[CE:info] Unpublishing qp default-race-qp-3-for-23
+[CE:info] Unpublishing qp default-race-qp-3-for-24
+[CE:info] Unpublishing qp default-race-qp-3-for-25
+[CE:info] Unpublishing qp default-race-qp-3-for-26
+[CE:info] Unpublishing qp default-race-qp-3-for-27
+[CE:info] Unpublishing qp default-race-qp-3-for-28
+[CE:info] Unpublishing qp default-race-qp-3-for-29
+[CE:info] Unpublishing qp default-race-qp-3-for-30
+[CE:info] Unpublishing qp default-race-qp-3-for-31
+[CE:info] Unpublishing qp default-race-qp-3-for-32
+[CE:info] Unpublishing qp default-race-qp-3-for-33
+[CE:info] Unpublishing qp default-race-qp-3-for-34
+[CE:info] Unpublishing qp default-race-qp-3-for-35
+[CE:info] Unpublishing qp default-race-qp-3-for-36
+[CE:info] Unpublishing qp default-race-qp-3-for-37
+[CE:info] Unpublishing qp default-race-qp-3-for-38
+[CE:info] Unpublishing qp default-race-qp-3-for-39
+[CE:info] Unpublishing qp default-race-qp-3-for-40
+[CE:info] Unpublishing qp default-race-qp-3-for-41
+[CE:info] Unpublishing qp default-race-qp-3-for-42
+[CE:info] Unpublishing qp default-race-qp-3-for-43
+[CE:info] Unpublishing qp default-race-qp-3-for-44
+[CE:info] Unpublishing qp default-race-qp-3-for-45
+[CE:info] Unpublishing qp default-race-qp-3-for-46
+[CE:info] Unpublishing qp default-race-qp-3-for-47
+[CE:info] Unpublishing qp default-race-qp-3-for-48
+[CE:info] Unpublishing qp default-race-qp-3-for-49
+[CE:info] Unpublishing qp default-race-qp-3-for-50
+[CE:info] Unpublishing qp default-race-qp-3-for-51
+[CE:info] Unpublishing qp default-race-qp-3-for-52
+[CE:info] Unpublishing qp default-race-qp-3-for-53
+[CE:info] Unpublishing qp default-race-qp-3-for-54
+[CE:info] Unpublishing qp default-race-qp-3-for-55
+[CE:info] Unpublishing qp default-race-qp-3-for-56
+[CE:info] Unpublishing qp default-race-qp-3-for-57
+[CE:info] Unpublishing qp default-race-qp-3-for-58
+[CE:info] Unpublishing qp default-race-qp-3-for-59
+[CE:info] Unpublishing qp default-race-qp-3-for-60
+[CE:info] Unpublishing qp default-race-qp-3-for-61
+[CE:info] Unpublishing qp default-race-qp-3-for-62
+[CE:info] Unpublishing qp default-race-qp-3-for-63
+[CE:info] Unpublishing qp default-race-qp-3-for-64
+[CE:info] Unpublishing qp default-race-qp-3-for-65
+[CE:info] Unpublishing qp default-race-qp-3-for-66
+[CE:info] Unpublishing qp default-race-qp-3-for-67
+Closing server index connection.
+###DONE###

@@ -11,19 +11,19 @@ FIRST_MACHINE=1
 FIRST_SERVER=$FIRST_MACHINE
 SERVER_MACHINES=3
 FIRST_CLIENT=$(($FIRST_MACHINE + $SERVER_MACHINES))
-CLIENT_MACHINES=4
+CLIENT_MACHINES=8
 MACHINE_COUNT=$(($SERVER_MACHINES + $CLIENT_MACHINES))
 REGISTRY_MACHINE=machine1
 
 # Set ssh names of the machines. Should be the same for the gateway and for 
 # the servers/clients
-for i in $(seq 1 10); do
+for i in $(seq 1 30); do
   declare "machine${i}=node${i}"
 done
 
 # Set fqdn names of the machines (use `hostname -f`)
 
-for i in $(seq 1 10); do
+for i in $(seq 1 30); do
   declare "machine${i}hostname=$(eval echo \${machine${i}})"
 done
 

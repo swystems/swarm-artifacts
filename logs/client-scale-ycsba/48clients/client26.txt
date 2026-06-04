@@ -1,0 +1,569 @@
+Workload: /opt/swarm-artifacts/workloads/oops-workloada
+Log entry size: 512
+KV entry size: 496
+mlx4_0 uverbs0 NodeType::CA TransportType::IB
+Binded successfully (port_id, port_lid) = (1, 128)
+[CB:info] PD 'primary' registered
+[CB:info] Buffer 'shared-buf' of size 2048 allocated
+[CB:info] Mr 'shared-mr' under PD 'primary' registered with buf 'shared-buf' (offset: 0, length: 2048) and rights 15
+[CB:info] Cq 'cq1' registered
+[CB:info] Cq 'cq2' registered
+[CB:info] Cq 'cq3' registered
+[CB:info] Cq 'cq4' registered
+[CB:info] Cq 'cq5' registered
+[CB:info] Cq 'cq6' registered
+[CB:info] Cq 'cq7' registered
+[CB:info] Cq 'cq8' registered
+[CB:info] Cq 'cq9' registered
+[CB:info] Cq 'cq10' registered
+[CB:info] Cq 'cq11' registered
+[CB:info] Cq 'cq12' registered
+[CB:info] Cq 'cq13' registered
+[CB:info] Cq 'cq14' registered
+[CB:info] Cq 'cq15' registered
+[CB:info] Cq 'cq16' registered
+[CB:info] Cq 'cq17' registered
+[CB:info] Cq 'cq18' registered
+[CB:info] Cq 'cq19' registered
+[CB:info] Cq 'cq20' registered
+[CB:info] Cq 'cq21' registered
+[CB:info] Cq 'cq22' registered
+[CB:info] Cq 'cq23' registered
+[CB:info] Cq 'cq24' registered
+[CB:info] Cq 'cq25' registered
+[CB:info] Cq 'cq26' registered
+[CB:info] Cq 'cq27' registered
+[CB:info] Cq 'cq28' registered
+[CB:info] Cq 'cq30' registered
+[CB:info] Cq 'cq31' registered
+[CB:info] Cq 'cq32' registered
+[CB:info] Cq 'cq33' registered
+[CB:info] Cq 'cq34' registered
+[CB:info] Cq 'cq35' registered
+[CB:info] Cq 'cq36' registered
+[CB:info] Cq 'cq37' registered
+[CB:info] Cq 'cq38' registered
+[CB:info] Cq 'cq39' registered
+[CB:info] Cq 'cq40' registered
+[CB:info] Cq 'cq41' registered
+[CB:info] Cq 'cq42' registered
+[CB:info] Cq 'cq43' registered
+[CB:info] Cq 'cq44' registered
+[CB:info] Cq 'cq45' registered
+[CB:info] Cq 'cq46' registered
+[CB:info] Cq 'cq47' registered
+[CB:info] Cq 'cq48' registered
+[CB:info] Cq 'cq49' registered
+[CB:info] Cq 'cq50' registered
+[CB:info] Cq 'cq51' registered
+[CE:info] Publishing qp qp-29-for-1
+[CE:info] Publishing qp qp-29-for-2
+[CE:info] Publishing qp qp-29-for-3
+[CE:info] Publishing qp qp-29-for-4
+[CE:info] Publishing qp qp-29-for-5
+[CE:info] Publishing qp qp-29-for-6
+[CE:info] Publishing qp qp-29-for-7
+[CE:info] Publishing qp qp-29-for-8
+[CE:info] Publishing qp qp-29-for-9
+[CE:info] Publishing qp qp-29-for-10
+[CE:info] Publishing qp qp-29-for-11
+[CE:info] Publishing qp qp-29-for-12
+[CE:info] Publishing qp qp-29-for-13
+[CE:info] Publishing qp qp-29-for-14
+[CE:info] Publishing qp qp-29-for-15
+[CE:info] Publishing qp qp-29-for-16
+[CE:info] Publishing qp qp-29-for-17
+[CE:info] Publishing qp qp-29-for-18
+[CE:info] Publishing qp qp-29-for-19
+[CE:info] Publishing qp qp-29-for-20
+[CE:info] Publishing qp qp-29-for-21
+[CE:info] Publishing qp qp-29-for-22
+[CE:info] Publishing qp qp-29-for-23
+[CE:info] Publishing qp qp-29-for-24
+[CE:info] Publishing qp qp-29-for-25
+[CE:info] Publishing qp qp-29-for-26
+[CE:info] Publishing qp qp-29-for-27
+[CE:info] Publishing qp qp-29-for-28
+[CE:info] Publishing qp qp-29-for-30
+[CE:info] Publishing qp qp-29-for-31
+[CE:info] Publishing qp qp-29-for-32
+[CE:info] Publishing qp qp-29-for-33
+[CE:info] Publishing qp qp-29-for-34
+[CE:info] Publishing qp qp-29-for-35
+[CE:info] Publishing qp qp-29-for-36
+[CE:info] Publishing qp qp-29-for-37
+[CE:info] Publishing qp qp-29-for-38
+[CE:info] Publishing qp qp-29-for-39
+[CE:info] Publishing qp qp-29-for-40
+[CE:info] Publishing qp qp-29-for-41
+[CE:info] Publishing qp qp-29-for-42
+[CE:info] Publishing qp qp-29-for-43
+[CE:info] Publishing qp qp-29-for-44
+[CE:info] Publishing qp qp-29-for-45
+[CE:info] Publishing qp qp-29-for-46
+[CE:info] Publishing qp qp-29-for-47
+[CE:info] Publishing qp qp-29-for-48
+[CE:info] Publishing qp qp-29-for-49
+[CE:info] Publishing qp qp-29-for-50
+[CE:info] Publishing qp qp-29-for-51
+[CE:info] Connected to qp qp-1-for-29 with rights 15
+[CE:info] Connected to qp qp-2-for-29 with rights 15
+[CE:info] Connected to qp qp-3-for-29 with rights 15
+[CE:info] Connected to qp qp-4-for-29 with rights 15
+[CE:info] Connected to qp qp-5-for-29 with rights 15
+[CE:info] Connected to qp qp-6-for-29 with rights 15
+[CE:info] Connected to qp qp-7-for-29 with rights 15
+[CE:info] Connected to qp qp-8-for-29 with rights 15
+[CE:info] Connected to qp qp-9-for-29 with rights 15
+[CE:info] Connected to qp qp-10-for-29 with rights 15
+[CE:info] Connected to qp qp-11-for-29 with rights 15
+[CE:info] Connected to qp qp-12-for-29 with rights 15
+[CE:info] Connected to qp qp-13-for-29 with rights 15
+[CE:info] Connected to qp qp-14-for-29 with rights 15
+[CE:info] Connected to qp qp-15-for-29 with rights 15
+[CE:info] Connected to qp qp-16-for-29 with rights 15
+[CE:info] Connected to qp qp-17-for-29 with rights 15
+[CE:info] Connected to qp qp-18-for-29 with rights 15
+[CE:info] Connected to qp qp-19-for-29 with rights 15
+[CE:info] Connected to qp qp-20-for-29 with rights 15
+[CE:info] Connected to qp qp-21-for-29 with rights 15
+[CE:info] Connected to qp qp-22-for-29 with rights 15
+[CE:info] Connected to qp qp-23-for-29 with rights 15
+[CE:info] Connected to qp qp-24-for-29 with rights 15
+[CE:info] Connected to qp qp-25-for-29 with rights 15
+[CE:info] Connected to qp qp-26-for-29 with rights 15
+[CE:info] Connected to qp qp-27-for-29 with rights 15
+[CE:info] Connected to qp qp-28-for-29 with rights 15
+[CE:info] Connected to qp qp-30-for-29 with rights 15
+[CE:info] Connected to qp qp-31-for-29 with rights 15
+[CE:info] Connected to qp qp-32-for-29 with rights 15
+[CE:info] Connected to qp qp-33-for-29 with rights 15
+[CE:info] Connected to qp qp-34-for-29 with rights 15
+[CE:info] Connected to qp qp-35-for-29 with rights 15
+[CE:info] Connected to qp qp-36-for-29 with rights 15
+[CE:info] Connected to qp qp-37-for-29 with rights 15
+[CE:info] Connected to qp qp-38-for-29 with rights 15
+[CE:info] Connected to qp qp-39-for-29 with rights 15
+[CE:info] Connected to qp qp-40-for-29 with rights 15
+[CE:info] Connected to qp qp-41-for-29 with rights 15
+[CE:info] Connected to qp qp-42-for-29 with rights 15
+[CE:info] Connected to qp qp-43-for-29 with rights 15
+[CE:info] Connected to qp qp-44-for-29 with rights 15
+[CE:info] Connected to qp qp-45-for-29 with rights 15
+[CE:info] Connected to qp qp-46-for-29 with rights 15
+[CE:info] Connected to qp qp-47-for-29 with rights 15
+[CE:info] Connected to qp qp-48-for-29 with rights 15
+[CE:info] Connected to qp qp-49-for-29 with rights 15
+[CE:info] Connected to qp qp-50-for-29 with rights 15
+[CE:info] Connected to qp qp-51-for-29 with rights 15
+[CE:info] Unpublishing qp qp-29-for-1
+[CE:info] Unpublishing qp qp-29-for-2
+[CE:info] Unpublishing qp qp-29-for-3
+[CE:info] Unpublishing qp qp-29-for-4
+[CE:info] Unpublishing qp qp-29-for-5
+[CE:info] Unpublishing qp qp-29-for-6
+[CE:info] Unpublishing qp qp-29-for-7
+[CE:info] Unpublishing qp qp-29-for-8
+[CE:info] Unpublishing qp qp-29-for-9
+[CE:info] Unpublishing qp qp-29-for-10
+[CE:info] Unpublishing qp qp-29-for-11
+[CE:info] Unpublishing qp qp-29-for-12
+[CE:info] Unpublishing qp qp-29-for-13
+[CE:info] Unpublishing qp qp-29-for-14
+[CE:info] Unpublishing qp qp-29-for-15
+[CE:info] Unpublishing qp qp-29-for-16
+[CE:info] Unpublishing qp qp-29-for-17
+[CE:info] Unpublishing qp qp-29-for-18
+[CE:info] Unpublishing qp qp-29-for-19
+[CE:info] Unpublishing qp qp-29-for-20
+[CE:info] Unpublishing qp qp-29-for-21
+[CE:info] Unpublishing qp qp-29-for-22
+[CE:info] Unpublishing qp qp-29-for-23
+[CE:info] Unpublishing qp qp-29-for-24
+[CE:info] Unpublishing qp qp-29-for-25
+[CE:info] Unpublishing qp qp-29-for-26
+[CE:info] Unpublishing qp qp-29-for-27
+[CE:info] Unpublishing qp qp-29-for-28
+[CE:info] Unpublishing qp qp-29-for-30
+[CE:info] Unpublishing qp qp-29-for-31
+[CE:info] Unpublishing qp qp-29-for-32
+[CE:info] Unpublishing qp qp-29-for-33
+[CE:info] Unpublishing qp qp-29-for-34
+[CE:info] Unpublishing qp qp-29-for-35
+[CE:info] Unpublishing qp qp-29-for-36
+[CE:info] Unpublishing qp qp-29-for-37
+[CE:info] Unpublishing qp qp-29-for-38
+[CE:info] Unpublishing qp qp-29-for-39
+[CE:info] Unpublishing qp qp-29-for-40
+[CE:info] Unpublishing qp qp-29-for-41
+[CE:info] Unpublishing qp qp-29-for-42
+[CE:info] Unpublishing qp qp-29-for-43
+[CE:info] Unpublishing qp qp-29-for-44
+[CE:info] Unpublishing qp qp-29-for-45
+[CE:info] Unpublishing qp qp-29-for-46
+[CE:info] Unpublishing qp qp-29-for-47
+[CE:info] Unpublishing qp qp-29-for-48
+[CE:info] Unpublishing qp qp-29-for-49
+[CE:info] Unpublishing qp qp-29-for-50
+[CE:info] Unpublishing qp qp-29-for-51
+[CB:info] PD 'pd' registered
+[CB:info] Buffer 'buf' of size 24576 allocated
+[CB:info] Mr 'mr' under PD 'pd' registered with buf 'buf' (offset: 0, length: 24576) and rights 15
+[CB:info] Cq 'index-cq' registered
+[CE:info] Publishing qp default-race-qp-29-for-1
+[CE:info] Publishing qp default-race-qp-29-for-2
+[CE:info] Publishing qp default-race-qp-29-for-3
+[IndexClient:info] Connecting...
+[CE:info] Connected to qp default-race-qp-1-for-29 with rights 15
+[CE:info] Connected to qp default-race-qp-2-for-29 with rights 15
+[CE:info] Connected to qp default-race-qp-3-for-29 with rights 15
+[IndexClient:info] Connected!
+[IndexClient:info] RDMA buffer: 96412587640128 to 96412587664704
+[CE:info] Unpublishing qp default-race-qp-29-for-1
+[CE:info] Unpublishing qp default-race-qp-29-for-2
+[CE:info] Unpublishing qp default-race-qp-29-for-3
+Querying YCSB for the list of operations... Done.
+Waiting for the initialization of other clients... Done.
+Running the benchmark... 
+Done. Results:
+
+################ Step-counts stats:
+######## UnreliableMaxRegFuture steps counts:
+TryReadAll: 1041498
+NotifyAndReadTs: 8
+ReadLog: 47298
+TryWriteAll: 1003434
+WriteAll: 79
+ReplicateAllAndReadNotifs: 13
+WriteTsAndIn: 1003432
+WriteTs: 491
+ReadNotifs: 97
+######## OopsDataFuture steps counts:
+WTryOptimisticTs: 501717
+WPrepareToRepare: 13
+WTryRepare: 55
+RReading: 520749
+RTryNotifyWriter: 4
+ReplicateAsVerified: 497915
+WriteTsAsVerified: 501716
+
+################ Main stats:
+######## SEARCH stats:
+cache-hits: 100%
+Number of measurements: 1000000.
+Average latency: 435ns.
+0.1%: 80ns.
+1%: 95ns.
+2%: 115ns.
+3%: 130ns.
+4%: 145ns.
+5%: 155ns.
+6%: 165ns.
+7%: 170ns.
+8%: 175ns.
+9%: 185ns.
+10%: 190ns.
+11%: 195ns.
+12%: 200ns.
+13%: 210ns.
+14%: 215ns.
+15%: 225ns.
+16%: 235ns.
+17%: 240ns.
+18%: 245ns.
+19%: 250ns.
+20%: 255ns.
+21%: 260ns.
+22%: 265ns.
+23%: 275ns.
+24%: 280ns.
+25%: 285ns.
+26%: 295ns.
+27%: 300ns.
+28%: 310ns.
+29%: 320ns.
+30%: 325ns.
+31%: 335ns.
+32%: 345ns.
+33%: 350ns.
+34%: 360ns.
+35%: 365ns.
+36%: 370ns.
+37%: 380ns.
+38%: 385ns.
+39%: 390ns.
+40%: 395ns.
+41%: 405ns.
+42%: 410ns.
+43%: 415ns.
+44%: 420ns.
+45%: 425ns.
+46%: 430ns.
+47%: 435ns.
+48%: 440ns.
+49%: 445ns.
+50%: 450ns.
+51%: 455ns.
+52%: 455ns.
+53%: 460ns.
+54%: 465ns.
+55%: 470ns.
+56%: 470ns.
+57%: 475ns.
+58%: 480ns.
+59%: 485ns.
+60%: 485ns.
+61%: 490ns.
+62%: 495ns.
+63%: 500ns.
+64%: 505ns.
+65%: 510ns.
+66%: 515ns.
+67%: 520ns.
+68%: 525ns.
+69%: 530ns.
+70%: 530ns.
+71%: 535ns.
+72%: 540ns.
+73%: 545ns.
+74%: 545ns.
+75%: 550ns.
+76%: 555ns.
+77%: 560ns.
+78%: 565ns.
+79%: 565ns.
+80%: 575ns.
+81%: 580ns.
+82%: 585ns.
+83%: 590ns.
+84%: 600ns.
+85%: 605ns.
+86%: 615ns.
+87%: 625ns.
+88%: 630ns.
+89%: 640ns.
+90%: 650ns.
+91%: 660ns.
+92%: 670ns.
+93%: 685ns.
+94%: 705ns.
+95%: 720ns.
+96%: 740ns.
+97%: 770ns.
+98%: 815ns.
+99%: 890ns.
+99.9%: 1230ns.
+99.99%: 12140ns.
+######## GET stats:
+Number of measurements: 498283.
+Average latency: 19883ns.
+0.1%: 4250ns.
+1%: 5400ns.
+2%: 6040ns.
+3%: 6620ns.
+4%: 7150ns.
+5%: 7660ns.
+6%: 8150ns.
+7%: 8630ns.
+8%: 9090ns.
+9%: 9540ns.
+10%: 9990ns.
+11%: 10420ns.
+12%: 10840ns.
+13%: 11260ns.
+14%: 11660ns.
+15%: 12060ns.
+16%: 12440ns.
+17%: 12820ns.
+18%: 13180ns.
+19%: 13520ns.
+20%: 13820ns.
+21%: 14120ns.
+22%: 14420ns.
+23%: 14680ns.
+24%: 14940ns.
+25%: 15180ns.
+26%: 15420ns.
+27%: 15640ns.
+28%: 15860ns.
+29%: 16040ns.
+30%: 16240ns.
+31%: 16420ns.
+32%: 16600ns.
+33%: 16780ns.
+34%: 16940ns.
+35%: 17100ns.
+36%: 17260ns.
+37%: 17400ns.
+38%: 17560ns.
+39%: 17700ns.
+40%: 17840ns.
+41%: 17980ns.
+42%: 18100ns.
+43%: 18240ns.
+44%: 18380ns.
+45%: 18500ns.
+46%: 18640ns.
+47%: 18760ns.
+48%: 18900ns.
+49%: 19020ns.
+50%: 19140ns.
+51%: 19260ns.
+52%: 19400ns.
+53%: 19520ns.
+54%: 19640ns.
+55%: 19760ns.
+56%: 19880ns.
+57%: 20000ns.
+58%: 20200ns.
+59%: 20300ns.
+60%: 20400ns.
+61%: 20500ns.
+62%: 20600ns.
+63%: 20800ns.
+64%: 20900ns.
+65%: 21000ns.
+66%: 21100ns.
+67%: 21300ns.
+68%: 21400ns.
+69%: 21500ns.
+70%: 21600ns.
+71%: 21800ns.
+72%: 21900ns.
+73%: 22100ns.
+74%: 22200ns.
+75%: 22300ns.
+76%: 22500ns.
+77%: 22600ns.
+78%: 22800ns.
+79%: 23000ns.
+80%: 23100ns.
+81%: 23300ns.
+82%: 23500ns.
+83%: 23700ns.
+84%: 23900ns.
+85%: 24100ns.
+86%: 24300ns.
+87%: 24500ns.
+88%: 24800ns.
+89%: 25000ns.
+90%: 25300ns.
+91%: 25700ns.
+92%: 26000ns.
+93%: 26500ns.
+94%: 27000ns.
+95%: 27700ns.
+96%: 28900ns.
+97%: 34100ns.
+98%: 56000ns.
+99%: 71600ns.
+99.9%: 172000ns.
+99.99%: 269000ns.
+######## UPDATE stats:
+Number of measurements: 501717.
+Average latency: 18855ns.
+0.1%: 4940ns.
+1%: 5990ns.
+2%: 6640ns.
+3%: 7210ns.
+4%: 7730ns.
+5%: 8230ns.
+6%: 8730ns.
+7%: 9200ns.
+8%: 9660ns.
+9%: 10120ns.
+10%: 10560ns.
+11%: 10980ns.
+12%: 11420ns.
+13%: 11840ns.
+14%: 12240ns.
+15%: 12640ns.
+16%: 13020ns.
+17%: 13400ns.
+18%: 13740ns.
+19%: 14080ns.
+20%: 14380ns.
+21%: 14680ns.
+22%: 14960ns.
+23%: 15220ns.
+24%: 15480ns.
+25%: 15720ns.
+26%: 15960ns.
+27%: 16160ns.
+28%: 16380ns.
+29%: 16580ns.
+30%: 16760ns.
+31%: 16940ns.
+32%: 17120ns.
+33%: 17280ns.
+34%: 17440ns.
+35%: 17600ns.
+36%: 17760ns.
+37%: 17920ns.
+38%: 18060ns.
+39%: 18200ns.
+40%: 18340ns.
+41%: 18480ns.
+42%: 18620ns.
+43%: 18740ns.
+44%: 18880ns.
+45%: 19000ns.
+46%: 19120ns.
+47%: 19260ns.
+48%: 19380ns.
+49%: 19500ns.
+50%: 19620ns.
+51%: 19740ns.
+52%: 19860ns.
+53%: 19980ns.
+54%: 20100ns.
+55%: 20300ns.
+56%: 20400ns.
+57%: 20500ns.
+58%: 20600ns.
+59%: 20700ns.
+60%: 20800ns.
+61%: 20900ns.
+62%: 21100ns.
+63%: 21200ns.
+64%: 21300ns.
+65%: 21400ns.
+66%: 21500ns.
+67%: 21700ns.
+68%: 21800ns.
+69%: 21900ns.
+70%: 22000ns.
+71%: 22100ns.
+72%: 22300ns.
+73%: 22400ns.
+74%: 22500ns.
+75%: 22700ns.
+76%: 22800ns.
+77%: 22900ns.
+78%: 23100ns.
+79%: 23200ns.
+80%: 23400ns.
+81%: 23500ns.
+82%: 23700ns.
+83%: 23900ns.
+84%: 24000ns.
+85%: 24200ns.
+86%: 24400ns.
+87%: 24600ns.
+88%: 24800ns.
+89%: 25000ns.
+90%: 25200ns.
+91%: 25400ns.
+92%: 25700ns.
+93%: 26000ns.
+94%: 26300ns.
+95%: 26700ns.
+96%: 27100ns.
+97%: 27700ns.
+98%: 28400ns.
+99%: 29600ns.
+99.9%: 35700ns.
+99.99%: 57400ns.
+
+Local tput: 35kpos
+###DONE###

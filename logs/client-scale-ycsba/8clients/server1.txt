@@ -1,0 +1,78 @@
+mlx4_0 uverbs0 NodeType::CA TransportType::IB
+Binded successfully (port_id, port_lid) = (1, 131)
+[CB:info] PD 'primary' registered
+[CB:info] Buffer 'shared-buf' of size 1539840000 allocated
+[CB:info] Mr 'shared-mr' under PD 'primary' registered with buf 'shared-buf' (offset: 0, length: 1539840000) and rights 15
+[CB:info] Cq 'cq2' registered
+[CB:info] Cq 'cq3' registered
+[CB:info] Cq 'cq4' registered
+[CB:info] Cq 'cq5' registered
+[CB:info] Cq 'cq6' registered
+[CB:info] Cq 'cq7' registered
+[CB:info] Cq 'cq8' registered
+[CB:info] Cq 'cq9' registered
+[CB:info] Cq 'cq10' registered
+[CB:info] Cq 'cq11' registered
+[CE:info] Publishing qp qp-1-for-2
+[CE:info] Publishing qp qp-1-for-3
+[CE:info] Publishing qp qp-1-for-4
+[CE:info] Publishing qp qp-1-for-5
+[CE:info] Publishing qp qp-1-for-6
+[CE:info] Publishing qp qp-1-for-7
+[CE:info] Publishing qp qp-1-for-8
+[CE:info] Publishing qp qp-1-for-9
+[CE:info] Publishing qp qp-1-for-10
+[CE:info] Publishing qp qp-1-for-11
+[CE:info] Connected to qp qp-2-for-1 with rights 15
+[CE:info] Connected to qp qp-3-for-1 with rights 15
+[CE:info] Connected to qp qp-4-for-1 with rights 15
+[CE:info] Connected to qp qp-5-for-1 with rights 15
+[CE:info] Connected to qp qp-6-for-1 with rights 15
+[CE:info] Connected to qp qp-7-for-1 with rights 15
+[CE:info] Connected to qp qp-8-for-1 with rights 15
+[CE:info] Connected to qp qp-9-for-1 with rights 15
+[CE:info] Connected to qp qp-10-for-1 with rights 15
+[CE:info] Connected to qp qp-11-for-1 with rights 15
+[CE:info] Unpublishing qp qp-1-for-2
+[CE:info] Unpublishing qp qp-1-for-3
+[CE:info] Unpublishing qp qp-1-for-4
+[CE:info] Unpublishing qp qp-1-for-5
+[CE:info] Unpublishing qp qp-1-for-6
+[CE:info] Unpublishing qp qp-1-for-7
+[CE:info] Unpublishing qp qp-1-for-8
+[CE:info] Unpublishing qp qp-1-for-9
+[CE:info] Unpublishing qp qp-1-for-10
+[CE:info] Unpublishing qp qp-1-for-11
+[CB:info] PD 'pd' registered
+[CB:info] Buffer 'buf' of size 18874368 allocated
+[CB:info] Mr 'mr' under PD 'pd' registered with buf 'buf' (offset: 0, length: 18874368) and rights 15
+[CB:info] Cq 'cq' registered
+[CE:info] Publishing qp default-race-qp-1-for-4
+[CE:info] Publishing qp default-race-qp-1-for-5
+[CE:info] Publishing qp default-race-qp-1-for-6
+[CE:info] Publishing qp default-race-qp-1-for-7
+[CE:info] Publishing qp default-race-qp-1-for-8
+[CE:info] Publishing qp default-race-qp-1-for-9
+[CE:info] Publishing qp default-race-qp-1-for-10
+[CE:info] Publishing qp default-race-qp-1-for-11
+[ServerIndex:info] Index connecting...
+[CE:info] Connected to qp default-race-qp-4-for-1 with rights 15
+[CE:info] Connected to qp default-race-qp-5-for-1 with rights 15
+[CE:info] Connected to qp default-race-qp-6-for-1 with rights 15
+[CE:info] Connected to qp default-race-qp-7-for-1 with rights 15
+[CE:info] Connected to qp default-race-qp-8-for-1 with rights 15
+[CE:info] Connected to qp default-race-qp-9-for-1 with rights 15
+[CE:info] Connected to qp default-race-qp-10-for-1 with rights 15
+[CE:info] Connected to qp default-race-qp-11-for-1 with rights 15
+[ServerIndex:info] Connected
+[ServerIndex:info] RDMA buffer: 137522917888064 to 137522936762432
+[CE:info] Unpublishing qp default-race-qp-1-for-4
+[CE:info] Unpublishing qp default-race-qp-1-for-5
+[CE:info] Unpublishing qp default-race-qp-1-for-6
+[CE:info] Unpublishing qp default-race-qp-1-for-7
+[CE:info] Unpublishing qp default-race-qp-1-for-8
+[CE:info] Unpublishing qp default-race-qp-1-for-9
+[CE:info] Unpublishing qp default-race-qp-1-for-10
+[CE:info] Unpublishing qp default-race-qp-1-for-11
+Closing server index connection.
+###DONE###

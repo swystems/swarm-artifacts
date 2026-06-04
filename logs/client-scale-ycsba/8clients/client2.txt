@@ -1,0 +1,409 @@
+Workload: /opt/swarm-artifacts/workloads/oops-workloada
+Log entry size: 192
+KV entry size: 176
+mlx4_0 uverbs0 NodeType::CA TransportType::IB
+Binded successfully (port_id, port_lid) = (1, 128)
+[CB:info] PD 'primary' registered
+[CB:info] Buffer 'shared-buf' of size 768 allocated
+[CB:info] Mr 'shared-mr' under PD 'primary' registered with buf 'shared-buf' (offset: 0, length: 768) and rights 15
+[CB:info] Cq 'cq1' registered
+[CB:info] Cq 'cq2' registered
+[CB:info] Cq 'cq3' registered
+[CB:info] Cq 'cq4' registered
+[CB:info] Cq 'cq6' registered
+[CB:info] Cq 'cq7' registered
+[CB:info] Cq 'cq8' registered
+[CB:info] Cq 'cq9' registered
+[CB:info] Cq 'cq10' registered
+[CB:info] Cq 'cq11' registered
+[CE:info] Publishing qp qp-5-for-1
+[CE:info] Publishing qp qp-5-for-2
+[CE:info] Publishing qp qp-5-for-3
+[CE:info] Publishing qp qp-5-for-4
+[CE:info] Publishing qp qp-5-for-6
+[CE:info] Publishing qp qp-5-for-7
+[CE:info] Publishing qp qp-5-for-8
+[CE:info] Publishing qp qp-5-for-9
+[CE:info] Publishing qp qp-5-for-10
+[CE:info] Publishing qp qp-5-for-11
+[CE:info] Connected to qp qp-1-for-5 with rights 15
+[CE:info] Connected to qp qp-2-for-5 with rights 15
+[CE:info] Connected to qp qp-3-for-5 with rights 15
+[CE:info] Connected to qp qp-4-for-5 with rights 15
+[CE:info] Connected to qp qp-6-for-5 with rights 15
+[CE:info] Connected to qp qp-7-for-5 with rights 15
+[CE:info] Connected to qp qp-8-for-5 with rights 15
+[CE:info] Connected to qp qp-9-for-5 with rights 15
+[CE:info] Connected to qp qp-10-for-5 with rights 15
+[CE:info] Connected to qp qp-11-for-5 with rights 15
+[CE:info] Unpublishing qp qp-5-for-1
+[CE:info] Unpublishing qp qp-5-for-2
+[CE:info] Unpublishing qp qp-5-for-3
+[CE:info] Unpublishing qp qp-5-for-4
+[CE:info] Unpublishing qp qp-5-for-6
+[CE:info] Unpublishing qp qp-5-for-7
+[CE:info] Unpublishing qp qp-5-for-8
+[CE:info] Unpublishing qp qp-5-for-9
+[CE:info] Unpublishing qp qp-5-for-10
+[CE:info] Unpublishing qp qp-5-for-11
+[CB:info] PD 'pd' registered
+[CB:info] Buffer 'buf' of size 24576 allocated
+[CB:info] Mr 'mr' under PD 'pd' registered with buf 'buf' (offset: 0, length: 24576) and rights 15
+[CB:info] Cq 'index-cq' registered
+[CE:info] Publishing qp default-race-qp-5-for-1
+[CE:info] Publishing qp default-race-qp-5-for-2
+[CE:info] Publishing qp default-race-qp-5-for-3
+[IndexClient:info] Connecting...
+[CE:info] Connected to qp default-race-qp-1-for-5 with rights 15
+[CE:info] Connected to qp default-race-qp-2-for-5 with rights 15
+[CE:info] Connected to qp default-race-qp-3-for-5 with rights 15
+[IndexClient:info] Connected!
+[IndexClient:info] RDMA buffer: 111286395859904 to 111286395884480
+[CE:info] Unpublishing qp default-race-qp-5-for-1
+[CE:info] Unpublishing qp default-race-qp-5-for-2
+[CE:info] Unpublishing qp default-race-qp-5-for-3
+Querying YCSB for the list of operations... Done.
+Waiting for the initialization of other clients... Done.
+Running the benchmark... 
+Done. Results:
+
+################ Step-counts stats:
+######## UnreliableMaxRegFuture steps counts:
+TryReadAll: 1003602
+NotifyAndReadTs: 26
+ReadLog: 5776
+TryWriteAll: 1001430
+WriteAll: 5
+ReplicateAllAndReadNotifs: 15
+WriteTsAndIn: 1001422
+WriteTs: 152
+ReadNotifs: 209
+######## OopsDataFuture steps counts:
+WTryOptimisticTs: 500715
+WPrepareToRepare: 15
+WTryRepare: 112
+RReading: 501801
+RTryNotifyWriter: 13
+ReplicateAsVerified: 499269
+WriteTsAsVerified: 500711
+
+################ Main stats:
+######## SEARCH stats:
+cache-hits: 100%
+Number of measurements: 1000000.
+Average latency: 338ns.
+0.1%: 80ns.
+1%: 90ns.
+2%: 100ns.
+3%: 115ns.
+4%: 130ns.
+5%: 140ns.
+6%: 145ns.
+7%: 150ns.
+8%: 155ns.
+9%: 160ns.
+10%: 165ns.
+11%: 165ns.
+12%: 170ns.
+13%: 175ns.
+14%: 180ns.
+15%: 185ns.
+16%: 190ns.
+17%: 195ns.
+18%: 195ns.
+19%: 200ns.
+20%: 205ns.
+21%: 215ns.
+22%: 220ns.
+23%: 225ns.
+24%: 225ns.
+25%: 230ns.
+26%: 235ns.
+27%: 240ns.
+28%: 240ns.
+29%: 245ns.
+30%: 245ns.
+31%: 250ns.
+32%: 250ns.
+33%: 255ns.
+34%: 255ns.
+35%: 260ns.
+36%: 265ns.
+37%: 265ns.
+38%: 270ns.
+39%: 275ns.
+40%: 275ns.
+41%: 280ns.
+42%: 285ns.
+43%: 285ns.
+44%: 290ns.
+45%: 295ns.
+46%: 300ns.
+47%: 305ns.
+48%: 310ns.
+49%: 315ns.
+50%: 315ns.
+51%: 320ns.
+52%: 325ns.
+53%: 325ns.
+54%: 330ns.
+55%: 335ns.
+56%: 340ns.
+57%: 345ns.
+58%: 350ns.
+59%: 355ns.
+60%: 360ns.
+61%: 365ns.
+62%: 370ns.
+63%: 375ns.
+64%: 380ns.
+65%: 385ns.
+66%: 390ns.
+67%: 395ns.
+68%: 400ns.
+69%: 400ns.
+70%: 405ns.
+71%: 410ns.
+72%: 415ns.
+73%: 420ns.
+74%: 425ns.
+75%: 435ns.
+76%: 440ns.
+77%: 445ns.
+78%: 450ns.
+79%: 455ns.
+80%: 460ns.
+81%: 470ns.
+82%: 475ns.
+83%: 480ns.
+84%: 485ns.
+85%: 495ns.
+86%: 505ns.
+87%: 510ns.
+88%: 520ns.
+89%: 530ns.
+90%: 540ns.
+91%: 550ns.
+92%: 565ns.
+93%: 575ns.
+94%: 595ns.
+95%: 610ns.
+96%: 635ns.
+97%: 660ns.
+98%: 700ns.
+99%: 765ns.
+99.9%: 1010ns.
+99.99%: 5970ns.
+######## GET stats:
+Number of measurements: 499285.
+Average latency: 4003ns.
+0.1%: 2460ns.
+1%: 2700ns.
+2%: 2800ns.
+3%: 2880ns.
+4%: 2940ns.
+5%: 3000ns.
+6%: 3060ns.
+7%: 3110ns.
+8%: 3160ns.
+9%: 3200ns.
+10%: 3240ns.
+11%: 3280ns.
+12%: 3310ns.
+13%: 3340ns.
+14%: 3380ns.
+15%: 3410ns.
+16%: 3440ns.
+17%: 3460ns.
+18%: 3490ns.
+19%: 3510ns.
+20%: 3530ns.
+21%: 3550ns.
+22%: 3570ns.
+23%: 3580ns.
+24%: 3600ns.
+25%: 3610ns.
+26%: 3630ns.
+27%: 3640ns.
+28%: 3650ns.
+29%: 3660ns.
+30%: 3680ns.
+31%: 3690ns.
+32%: 3700ns.
+33%: 3710ns.
+34%: 3730ns.
+35%: 3740ns.
+36%: 3750ns.
+37%: 3760ns.
+38%: 3770ns.
+39%: 3780ns.
+40%: 3790ns.
+41%: 3800ns.
+42%: 3810ns.
+43%: 3830ns.
+44%: 3840ns.
+45%: 3850ns.
+46%: 3860ns.
+47%: 3870ns.
+48%: 3880ns.
+49%: 3890ns.
+50%: 3900ns.
+51%: 3920ns.
+52%: 3930ns.
+53%: 3940ns.
+54%: 3950ns.
+55%: 3960ns.
+56%: 3970ns.
+57%: 3990ns.
+58%: 4000ns.
+59%: 4010ns.
+60%: 4030ns.
+61%: 4040ns.
+62%: 4060ns.
+63%: 4070ns.
+64%: 4090ns.
+65%: 4100ns.
+66%: 4120ns.
+67%: 4130ns.
+68%: 4150ns.
+69%: 4170ns.
+70%: 4190ns.
+71%: 4200ns.
+72%: 4220ns.
+73%: 4240ns.
+74%: 4260ns.
+75%: 4280ns.
+76%: 4310ns.
+77%: 4330ns.
+78%: 4350ns.
+79%: 4370ns.
+80%: 4400ns.
+81%: 4420ns.
+82%: 4450ns.
+83%: 4480ns.
+84%: 4500ns.
+85%: 4530ns.
+86%: 4570ns.
+87%: 4600ns.
+88%: 4640ns.
+89%: 4680ns.
+90%: 4720ns.
+91%: 4770ns.
+92%: 4820ns.
+93%: 4880ns.
+94%: 4960ns.
+95%: 5050ns.
+96%: 5160ns.
+97%: 5320ns.
+98%: 5600ns.
+99%: 7260ns.
+99.9%: 13920ns.
+99.99%: 18680ns.
+######## UPDATE stats:
+Number of measurements: 500715.
+Average latency: 4742ns.
+0.1%: 3400ns.
+1%: 3630ns.
+2%: 3730ns.
+3%: 3800ns.
+4%: 3850ns.
+5%: 3890ns.
+6%: 3930ns.
+7%: 3970ns.
+8%: 4000ns.
+9%: 4030ns.
+10%: 4050ns.
+11%: 4080ns.
+12%: 4100ns.
+13%: 4120ns.
+14%: 4140ns.
+15%: 4160ns.
+16%: 4180ns.
+17%: 4200ns.
+18%: 4220ns.
+19%: 4240ns.
+20%: 4250ns.
+21%: 4270ns.
+22%: 4280ns.
+23%: 4300ns.
+24%: 4310ns.
+25%: 4330ns.
+26%: 4340ns.
+27%: 4360ns.
+28%: 4370ns.
+29%: 4380ns.
+30%: 4400ns.
+31%: 4410ns.
+32%: 4420ns.
+33%: 4440ns.
+34%: 4450ns.
+35%: 4460ns.
+36%: 4470ns.
+37%: 4490ns.
+38%: 4500ns.
+39%: 4510ns.
+40%: 4520ns.
+41%: 4540ns.
+42%: 4550ns.
+43%: 4560ns.
+44%: 4570ns.
+45%: 4590ns.
+46%: 4600ns.
+47%: 4610ns.
+48%: 4620ns.
+49%: 4640ns.
+50%: 4650ns.
+51%: 4660ns.
+52%: 4680ns.
+53%: 4690ns.
+54%: 4700ns.
+55%: 4720ns.
+56%: 4730ns.
+57%: 4740ns.
+58%: 4760ns.
+59%: 4770ns.
+60%: 4780ns.
+61%: 4800ns.
+62%: 4810ns.
+63%: 4830ns.
+64%: 4840ns.
+65%: 4860ns.
+66%: 4870ns.
+67%: 4890ns.
+68%: 4910ns.
+69%: 4920ns.
+70%: 4940ns.
+71%: 4960ns.
+72%: 4970ns.
+73%: 4990ns.
+74%: 5010ns.
+75%: 5030ns.
+76%: 5050ns.
+77%: 5070ns.
+78%: 5090ns.
+79%: 5120ns.
+80%: 5140ns.
+81%: 5160ns.
+82%: 5190ns.
+83%: 5220ns.
+84%: 5240ns.
+85%: 5270ns.
+86%: 5310ns.
+87%: 5340ns.
+88%: 5370ns.
+89%: 5410ns.
+90%: 5460ns.
+91%: 5500ns.
+92%: 5560ns.
+93%: 5620ns.
+94%: 5690ns.
+95%: 5770ns.
+96%: 5870ns.
+97%: 6010ns.
+98%: 6220ns.
+99%: 6740ns.
+99.9%: 14840ns.
+99.99%: 20400ns.
+
+Local tput: 162kpos
+###DONE###
