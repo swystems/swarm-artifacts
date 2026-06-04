@@ -4,7 +4,7 @@ fieldcount=1
 fieldlength=63
 
 recordcount=1
-operationcount=200000
+operationcount=20000
 workload=com.yahoo.ycsb.workloads.CoreWorkload
 
 readallfields=true
@@ -14,5 +14,5 @@ updateproportion=0.05
 scanproportion=0
 insertproportion=0
 
-requestdistribution=uniform
+requestdistribution=zipfian
 

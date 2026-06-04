@@ -2,7 +2,7 @@ Workload: /opt/swarm-artifacts/workloads/oops-workloadb-singlekey
 Log entry size: 192
 KV entry size: 176
 mlx4_0 uverbs0 NodeType::CA TransportType::IB
-Binded successfully (port_id, port_lid) = (1, 131)
+Binded successfully (port_id, port_lid) = (1, 60)
 [CB:info] PD 'primary' registered
 [CB:info] Buffer 'shared-buf' of size 768 allocated
 [CB:info] Mr 'shared-mr' under PD 'primary' registered with buf 'shared-buf' (offset: 0, length: 768) and rights 15
@@ -58,7 +58,7 @@ Binded successfully (port_id, port_lid) = (1, 131)
 [CE:info] Connected to qp default-race-qp-2-for-6 with rights 15
 [CE:info] Connected to qp default-race-qp-3-for-6 with rights 15
 [IndexClient:info] Connected!
-[IndexClient:info] RDMA buffer: 108814471377856 to 108814471402432
+[IndexClient:info] RDMA buffer: 103459506676672 to 103459506701248
 [CE:info] Unpublishing qp default-race-qp-6-for-1
 [CE:info] Unpublishing qp default-race-qp-6-for-2
 [CE:info] Unpublishing qp default-race-qp-6-for-3

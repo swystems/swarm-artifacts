@@ -22,13 +22,29 @@ if you need more nodes.
  cat ~/.ssh/config
 
 Host node9
+    StrictHostKeyChecking no
     HostName apt136.apt.emulab.net
     User myuser
 
 Host node10
+    StrictHostKeyChecking no
     HostName apt130.apt.emulab.net
-    User muser
+    User myuser
 
+```
+
+### Run
+
+- Edit `scripts/config.sh` with the nuumber of clients and server machines.
+
+```sh
+## if prev expertiments were run
+clear-logs.sh
+
+## deploy config and run
+update-scripts.sh
+experiments/repcxl_main.sh
+gather-logs.sh
 ```
 
 ## DIY
@@ -87,7 +103,19 @@ systemctl stop memcached
 
 ## Other commands and info
 
-Manual server command
+### build 1 & send all
+
+```sh
+ssh node1
+cd /opt/swarm-artifacts/bin/swarm-kv/swarm-kv
+./build.sh swarm-kv
+exit
+scp /opt/swarm-artifacts/bin/swarm-kv/swarm-kv/build/bin/swarmkv .
+for i in 2 3 4 5 6 7 8 9 10 11; do rsync --progress swarmkv node$i:/opt/swarm-artifacts/bin/swarmkv; done
+```
+
+### Manual server command
+
 ```sh
 source "/opt/swarm-artifacts/scripts/config.sh" 
 mkdir -p /opt/swarm-artifacts/logs/fig5-latency-cdf/workload-A/SWARM-KV/ 
