@@ -74,3 +74,5 @@ Binded successfully (port_id, port_lid) = (1, 90)
 [CE:info] Unpublishing qp default-race-qp-2-for-9
 [CE:info] Unpublishing qp default-race-qp-2-for-10
 [CE:info] Unpublishing qp default-race-qp-2-for-11
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Failed to get from the store the K = qp-4-ready(finished) (CONNECTION FAILURE)
