@@ -5,3 +5,6 @@ ycsb-0.12.0.tar.gz
 ycsb-0.12.0/
 YCSB/
 *.pdf
+
+manifest.xml
+cloudlab_ssh

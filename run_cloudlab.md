@@ -11,12 +11,21 @@ https://www.cloudlab.us/p/xdp-bypass23/swarm-cluster-test
 
 
 ### Setup cloud lab addresses
+`scripts/config.sh` defines the names and setup of the nodes for the experiments.
+It assumes ssh passwordless access to machines which can be configured for CloudLab
+as follows: 
 
-Map cloudlab nodes addresses to `~/.ssh/config`. Example for 2 
-nodes below. It's important that the name stay node1, node2... nodeN because
-cloudlab instances use the same names.Machines are defined in `scripts/config.sh`
-which is used in a number of scripts and by the main bin. Extend `scripts/config.sh`
-if you need more nodes.
+1. Once the CloudLab experiment has started, download/save the XML manifest into `./manifest.xml`
+2. `python3 manifest_to_ssh_config.py --manifest manifest.xml > cloudlab_ssh` (double check the user is correct, otherwise specify with `--user`)
+3. Add the line `Include <abs_path_to_this_repo>/cloudlab_ssh` *at the top of* 
+`~/.ssh/config`.
+
+
+Machines/node names are defined in  Currently `scripts/config.sh` assumes max 30 nodes, edit for more.
+
+*Alternative manual instructions:* see example below. It's important that the name stay node1, node2... nodeN because cloudlab automatically uses that naming convention when initalizing the cluster swarm-kv instances use names (instead of addresses) to communicate with other 
+instances.
+
 
 ```sh
  cat ~/.ssh/config
@@ -41,13 +50,13 @@ Host node10
 ## if prev expertiments were run
 clear-logs.sh
 
-## deploy config and run
+## deploy config and run the repcxl_main.sh experiment
 update-scripts.sh
 experiments/repcxl_main.sh
 gather-logs.sh
 ```
 
-## DIY
+## DIY from clean cloulab experiment
 
 Spin a cloudlab small-lan with r320 nodes with Ubuntu 24.04. from the APT 
 cluster (as of 05/2026). Any other machine which supports infiniband (mandatory 

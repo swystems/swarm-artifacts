@@ -1,3 +1,6 @@
+**This repo is an updated fork to run the experiments in CloudLab r320 (Infiniband) machines with** 
+**Ubuntu 24.04. See [./run_cloudlab.md](./run_cloudlab.md) for instructions.**
+
 # Overview
 
 SWARM is a wait-free replication protocol for shared data in disaggregated memory that provides 1-RTT reads and writes.
