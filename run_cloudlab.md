@@ -1,6 +1,6 @@
 # Reproduce swarm on cloudlab r320
 Quick guide to deploy & test swarm on CloudLab, always refer to README for full 
-details. 
+details.
 
 ## Use pre-configured cloudlab profile
 
@@ -8,6 +8,9 @@ If you have a CloudLab account, instantiate a pre-configured cluster through the
 following profile:
 
 https://www.cloudlab.us/p/xdp-bypass23/swarm-cluster-test
+
+Make sure to move or clone this repo to `/opt/swarm-artifacts`, SWARM scripts
+expect the same path as the target servers
 
 
 ### Setup cloud lab addresses
@@ -54,6 +57,16 @@ clear-logs.sh
 update-scripts.sh
 experiments/repcxl_main.sh
 gather-logs.sh
+```
+
+> Note: permission denied error might mean another user in your project owns the
+> /opt/swarm-artifacts folder. Run `chown-all.sh` to change permission to your
+> user
+
+To stop running experiments:
+
+```sh
+scripts/kill-all-tmux.sh
 ```
 
 ## DIY from clean cloulab experiment

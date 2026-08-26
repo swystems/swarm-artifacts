@@ -1,7 +1,7 @@
 #   Default data size: 1 KB records (10 fields, 100 bytes each, plus key)
 
 fieldcount=1
-fieldlength=63
+fieldlength=503
 
 recordcount=1
 operationcount=100000
