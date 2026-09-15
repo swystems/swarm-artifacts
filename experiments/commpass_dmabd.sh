@@ -8,7 +8,7 @@ MAJORITY=2
 
 SCRIPT_DIR="$( realpath -sm "$( dirname "${BASH_SOURCE[0]}" )"/../scripts )"
 
-## NOTE: g=false --in-place=false is the "DM-ABD" version of the protocol.
+## NOTE: -g=false is the "DM-ABD" version of the protocol.
 ## run.sh arg order: <bin> <results folder> <workload file workloads/> <servers> 
 ## <clients> -m <majority> -d=<true/false> -g=<true/false> --in_place=<true/false> -v <value
 
